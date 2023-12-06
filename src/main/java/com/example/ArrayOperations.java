@@ -40,12 +40,11 @@ public class ArrayOperations {
     // Exercise 4: Calculate the Average of Array Elements
     public static double calculateAverage(int[] array) {
         // TODO: Implement the logic to calculate the average of the array elements.
-        int[] testArray = array;
         int sum = 0;
-        for (int i = 0; i < testArray.length; i++) {
-            sum += testArray[i];
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
         }
-        return sum/testArray.length; // Placeholder return value
+        return sum/array.length; // Placeholder return value
     }
 
     // Exercise 5: Reverse an Array
